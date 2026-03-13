@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Download, Clock, Fish, Volume2, Hand, ChevronRight, Star } from 'lucide-react';
 
-const iconImg = `${import.meta.env.BASE_URL}icon.png`;
+const iconImg = `${import.meta.env.BASE_URL}iconalt.png`;
 const iphoneLandscapeImg = `${import.meta.env.BASE_URL}iphonelandscape.png`;
 const ipadScreenshotImg = `${import.meta.env.BASE_URL}ipad-screenshot.png`;
 
