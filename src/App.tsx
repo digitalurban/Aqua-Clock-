@@ -2,6 +2,10 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Download, Clock, Fish, Volume2, Hand, ChevronRight, Star } from 'lucide-react';
 
+import iconImg from '../public/icon.png';
+import iphoneLandscapeImg from '../public/iphonelandscape.png';
+import ipadScreenshotImg from '../public/ipad-screenshot.png';
+
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#005c99] via-[#003366] to-[#011126] text-white font-sans selection:bg-cyan-500/30 overflow-x-hidden">
