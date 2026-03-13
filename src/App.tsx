@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Download, Clock, Fish, Volume2, Hand, ChevronRight, Star } from 'lucide-react';
 
-import iconImg from '../public/icon.png';
-import iphoneLandscapeImg from '../public/iphonelandscape.png';
-import ipadScreenshotImg from '../public/ipad-screenshot.png';
+const iconImg = `${import.meta.env.BASE_URL}icon.png`;
+const iphoneLandscapeImg = `${import.meta.env.BASE_URL}iphonelandscape.png`;
+const ipadScreenshotImg = `${import.meta.env.BASE_URL}ipad-screenshot.png`;
 
 export default function App() {
   return (
