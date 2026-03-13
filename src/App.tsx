@@ -102,7 +102,7 @@ export default function App() {
               
               {/* Screen Content */}
               <div className="w-full h-full bg-[#005c99] relative overflow-hidden">
-                <img src={iphoneLandscapeImg} alt="AquaClock on iPhone Landscape" className="w-full h-full object-cover" /> alt="AquaClock on iPhone Landscape" className="w-full h-full object-cover" />
+                <img src={iphoneLandscapeImg} alt="AquaClock on iPhone Landscape" className="w-full h-full object-cover" />
               </div>
               
               {/* Inner Shadow for depth */}
