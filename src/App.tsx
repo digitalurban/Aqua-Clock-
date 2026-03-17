@@ -217,8 +217,9 @@ export default function App() {
                 <ul className="space-y-5 mb-10">
                   {[
                     'Landscape & Portrait orientation support', 
-                    'Dark mode integration for nighttime viewing', 
-                    'Optimized for minimal battery consumption'
+                    'Tap to feed the fish (or knock the snails off the glass)', 
+                    'Change the water colour with a two finger pinch',
+                    'The Ability to turn off Time Mode and have a living breathing aquarium'
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-4 text-blue-100/80">
                       <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
