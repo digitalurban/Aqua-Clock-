@@ -128,10 +128,15 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             className="mt-16 lg:mt-20 z-20"
           >
-            <button className="flex items-center gap-3 bg-white text-[#020813] px-8 py-4 rounded-full font-medium hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]">
-              <Download className="w-5 h-5" />
-              Download on App Store
-            </button>
+            <a href="https://apps.apple.com/gb/app/aqua-clock/id6760460959" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-block">
+  <button className="flex items-center gap-3 bg-white text-[#020813] px-8 py-4 rounded-full font-medium hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]">
+    <Download className="w-5 h-5" />
+    Download on App Store
+  </button>
+</a>
           </motion.div>
         </div>
       </main>
